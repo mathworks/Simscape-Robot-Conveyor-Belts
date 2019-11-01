@@ -1,4 +1,4 @@
-function youBot_configureLoad(modelname,option)
+ function youBot_configureLoad(modelname,option)
 % Copyright 2016-2019 The MathWorks, Inc.
 
 gf_pth = find_system(modelname,'LookUnderMasks','all','FollowLinks','on',...

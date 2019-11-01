@@ -1,4 +1,4 @@
-Robot arm with 5 degrees of freedom and gripper
+Robot arm with 5 degrees of freedom and gripper. 
 Copyright 2016-2019 The MathWorks, Inc.
 
 Models a robot arm with 5 degrees of freedom and a gripper, along with 

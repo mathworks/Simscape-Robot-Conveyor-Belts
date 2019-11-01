@@ -6,12 +6,12 @@
 % <tr>   <img src="youBot_Arm_System_demoScript_IMAGE.jpg" alt="youBot System Image"><br>
 % <br>
 % <tr><b><u>Model</u></b><br>
-% <tr>1.  <a href="matlab:cd(YBT_HomeDir);open_system('youBot_Arm');">Open youBot Model</a> (see also model <a href="matlab:web('youBot_Arm_Overview.png');">overview</a>, <a href="matlab:youBot_Arm_webopen_file('youBot_Arm.html');">documentation</a>) Logo: <a href="matlab:youBot_logoShowHide('youBot_Arm','show');">show</a>, <a href="matlab:youBot_logoShowHide('youBot_Arm','hide');">hide</a><br>
+% <tr>1.  <a href="matlab:cd(fileparts(which('youBot_Arm.slx')));open_system('youBot_Arm');">Open youBot Model</a> (see also model <a href="matlab:web('youBot_Arm_Overview.png');">overview</a>, <a href="matlab:youBot_Arm_webopen_file('youBot_Arm.html');">documentation</a>) Logo: <a href="matlab:youBot_logoShowHide('youBot_Arm','show');">show</a>, <a href="matlab:youBot_logoShowHide('youBot_Arm','hide');">hide</a><br>
 % <br>
 % <tr><b><u>Import from Onshape</u></b><br>
 % <tr>2.  View CAD model in Onshape (requires <a href="matlab:youBot_Arm_viewOnshape('getAccount');">Onshape account</a>): <a href="matlab:youBot_Arm_viewOnshape('showArm');">Open in Chrome</a><br>
 % <tr>3.  <a href="matlab:youBot_Arm_winopen_file('youBot_CAD_import.mp4');">Video of import from Onshape</a><br>
-% <tr>4.  Import From: <a href="matlab:cd([YBT_HomeDir '\CAD\Onshape']);Get_Onshape_youBot_Model;">Onshape</a>; <a href="matlab:cd([YBT_HomeDir '\CAD']);smimport('youBot.xml','ModelName','youBot_importXML','DataFileName','youBot_importXMLDataFile');">Local copy of Simscape Multibody XML file</a><br>
+% <tr>4.  Import From: <a href="matlab:cd(fileparts(which('Get_Onshape_youBot_Model.m')));Get_Onshape_youBot_Model;">Onshape</a>; <a href="matlab:cd(fileparts(which('youBot.xml')));smimport('youBot.xml','ModelName','youBot_importXML','DataFileName','youBot_importXMLDataFile');">Local copy of Simscape Multibody XML file</a><br>
 % <tr>5.  URDF <a href="matlab:open_system('youBot_STEP_URDF');">Open Model</a>, <a href="matlab:edit('youBot_STEP.urdf');">View URDF File</a><br>
 % <br>
 % <tr><b><u>Optimization</u></b><br>
