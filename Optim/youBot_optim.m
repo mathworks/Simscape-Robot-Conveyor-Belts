@@ -53,7 +53,11 @@ ub = repmat(ub',numPoints,1);
 
 options = psoptimset('Vectorized','off','Display','iter','UseParallel','never',...
     'TolMesh',0.0025,'CompletePoll','on','InitialMeshSize',0.05,'ScaleMesh','on',...
-    'PlotFcns', @psplotbestf,'MaxFunEvals',50);
+    'PlotFcns', @psplotbestf,'MaxFunEvals',50); % SHORT
+
+%    'PlotFcns', @psplotbestf,'MaxIter',3); % VERY SHORT
+%    'PlotFcns', @psplotbestf,'MaxFunEvals',50); % SHORT
+%    'PlotFcns', @psplotbestf,'MaxIter',75); % COMPLETE
 
 % VERY SHORT: ,'MaxIter',3
 % SHORT: ,'MaxFunEvals',50
