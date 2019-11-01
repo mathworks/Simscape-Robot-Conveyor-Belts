@@ -1,4 +1,4 @@
-% Copyright 2016-2017 The MathWorks(TM), Inc.
+% Copyright 2016-2018 The MathWorks(TM), Inc.
 
 if (exist('youBot_optres_noFriction.mat','file'))
     load youBot_optres_noFriction.mat

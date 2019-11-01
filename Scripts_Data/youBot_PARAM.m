@@ -1,5 +1,5 @@
 % Parameters for youBot Arm model
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 %% Cube and Fixed Payload 
 % Cube that moves on belt
@@ -91,8 +91,8 @@ YBT_Par.Finger.Con.x = 1e-2;       % m
 YBT_Par.Finger.Con.y = 1e-2;       % m
 YBT_Par.Finger.Con.z = 5e-4;       % m
 YBT_Par.Finger.Con.rSph = 5e-4;    % m    
-YBT_Par.Finger.Con.k = 1e6;        % N/m
-YBT_Par.Finger.Con.b = 1e4;        % N/(m/s)
+YBT_Par.Finger.Con.k = 1e4;        % N/m
+YBT_Par.Finger.Con.b = 5e1;        % N/(m/s)
 YBT_Par.Finger.Con.mus = 0.7;      % 0 - 1 
 YBT_Par.Finger.Con.muk = 0.5;      % 0 - 1
 YBT_Par.Finger.Con.vth = 1e-3;     % m/s

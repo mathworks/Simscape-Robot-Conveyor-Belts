@@ -10,7 +10,7 @@
 % 5. Add actuation
 % 6. Run the simulation
 
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 % Add current directory to path
 %addpath(pwd)

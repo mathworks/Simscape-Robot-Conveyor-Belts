@@ -1,5 +1,5 @@
 Robot arm with 5 degrees of freedom and gripper
-Copyright 2016-2017 The MathWorks, Inc.
+Copyright 2016-2018 The MathWorks, Inc.
 
 Models a robot arm with 5 degrees of freedom and a gripper, along with 
 two conveyor belts.  The robot transfers a block from one conveyor belt

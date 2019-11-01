@@ -1,5 +1,5 @@
 function youBot_configureMotors(modelname,variant)
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 sub_pth = find_system(modelname,'LookUnderMasks','all','FollowLinks','on',...
     'Name','Actuation');

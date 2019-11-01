@@ -4,7 +4,7 @@
 % The plot below shows the constraint forces for each joint in the youBot
 % robotic arm.
 %
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_youBot_Arm', 'var')
@@ -29,7 +29,7 @@ temp_radInds = [1 2;4 5;7 8; 10 11;13 14; 16 17; 19 20];
 temp_axInds = [1:7]*3;
 
 % Plot results
-%simlog_handles(1) = subplot(2, 1, 1);
+simlog_handles(1) = subplot(2, 1, 1);
 for temp_jNum = 1:7
     temp_fcAxial = sqrt(...
         simlog_joint_fc.Values.Data(:,temp_radInds(temp_jNum,1)).^2 + ...

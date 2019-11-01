@@ -1,4 +1,4 @@
-% Copyright 2016-2017 The MathWorks(TM), Inc.
+% Copyright 2016-2018 The MathWorks(TM), Inc.
 
 YBT_HomeDir = pwd;
 
@@ -8,6 +8,7 @@ cd([YBT_HomeDir filesep 'Libraries' filesep 'CFL_Libs']);
 startup_Contact_Forces
 
 cd(YBT_HomeDir)
+addpath(YBT_HomeDir);
 addpath([YBT_HomeDir filesep 'CAD']);
 addpath([YBT_HomeDir filesep 'Scripts_Data']);
 addpath([YBT_HomeDir filesep 'Libraries']);

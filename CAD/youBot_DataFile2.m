@@ -1,12 +1,10 @@
-% Simscape(TM) Multibody(TM) version: 4.9
+% Simscape(TM) Multibody(TM) version: 5.1
 
 % This is a model data file derived from a Simscape Multibody Import XML file using the smimport function.
 % The data in this file sets the block parameter values in an imported Simscape Multibody model.
 % For more information on this file, see the smimport function help page in the Simscape Multibody documentation.
 % You can modify numerical values, but avoid any other changes to this file.
 % Do not add code to this file. Do not edit the physical units shown in comments.
-
-% Copyright 2016-2018 The MathWorks(TM), Inc.
 
 %%%VariableName:smiData
 

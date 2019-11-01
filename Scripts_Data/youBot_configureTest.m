@@ -1,5 +1,5 @@
 function youBot_configureTest(modelname,testOption)
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 sigbRobt_hs = find_system(modelname,...
     'LookUnderMasks','all',...
