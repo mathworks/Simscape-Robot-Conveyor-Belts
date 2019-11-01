@@ -1,5 +1,5 @@
 function [t, QOpt, Q0] = youBot_optim(modelname, YBT_Par, t, Q0)
-% Copyright 2016-2018 The MathWorks, Inc.
+% Copyright 2016-2019 The MathWorks, Inc.
 
 %% Configure model
 set_param([modelname '/Input'],'OverrideUsingVariant','Splines');

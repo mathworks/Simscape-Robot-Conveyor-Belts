@@ -1,4 +1,4 @@
-% Copyright 2016-2018 The MathWorks(TM), Inc.
+% Copyright 2016-2019 The MathWorks(TM), Inc.
 
 YBT_HomeDir = pwd;
 
