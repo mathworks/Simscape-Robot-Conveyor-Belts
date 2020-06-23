@@ -4,7 +4,7 @@
 % The plot below shows the current drawn by all motors in the youBot
 % robotic arm.
 %
-% Copyright 2016-2019 The MathWorks, Inc.
+% Copyright 2016-2020 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_youBot_Arm', 'var')

@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>youBot Arm</title><meta name="generator" content="MATLAB 9.7"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-07-13"><meta name="DC.source" content="youBot_Arm_fullTest.m"><style type="text/css">
+      --><title>youBot Arm</title><meta name="generator" content="MATLAB 9.8"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-03-15"><meta name="DC.source" content="youBot_Arm_fullTest.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -23,7 +23,7 @@ a:visited { color:#004aa0; text-decoration:none; }
 
 p { padding:0px; margin:0px 0px 20px; }
 img { padding:0px; margin:0px 0px 20px; border:none; }
-p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
 
 ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
 ul li { padding:0px; margin:0px 0px 7px 0px; }
@@ -52,6 +52,7 @@ span.comment { color:#228B22 }
 span.string { color:#A020F0 }
 span.untermstring { color:#B20000 }
 span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
 
 .footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
 .footer p { margin:0px; }
@@ -69,22 +70,22 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
   </style></head><body><div class="content"><h1>youBot Arm</h1><!--introduction--><p>This examples models a robotic arm and two conveyor belts.  One conveyor belts bring blocks to the robot.  The robot grabs the block, flips it over and transfers it to another conveyor belt which transports it away from the robot.</p><p>This example can be used to determine requirements for electrical and mechanical design, detect integration issues, design and test control logic, and optimize path planning.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#2">Simulation Results from Simscape Logging</a></li><li><a href="#8">Optimization Results With Friction</a></li><li><a href="#9">Optimization Results Without Friction</a></li></ul></div><h2 id="1">Model</h2><p>The top level of the model contains hyperlinks that configure the model according to the test you wish to perform. The default test is for the entire system (robot arm and conveyor belts).</p><p>Box transfer tests can be run to determine the amount of power required for a specific manipulator trajectory.</p><p>Joint tests can be run to determine required motor torque and the forces that the bearings will experience.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_01.png" alt=""> <h2 id="2">Simulation Results from Simscape Logging</h2><p>The plot below shows the current drawn by all motors in the youBot robotic arm.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_02.png" alt=""> <p>The plot below shows the 3D trajectory of the box moved by the youBot robotic arm.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_03.png" alt=""> <p>The plot below shows the torque or force for each motor in the youBot robotic arm.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_04.png" alt=""> <p>The plot below shows the positions of the joints in the youBot robotic arm.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_05.png" alt=""> <p>The plot below shows the constraint forces for each joint in the youBot robotic arm.</p><img vspace="5" hspace="5" src="youBot_Arm_fullTest_06.png" alt=""> <h2 id="8">Optimization Results With Friction</h2><pre class="codeoutput">
 
 Iter     Func-count       f(x)      MeshSize     Method
-    0           1        417.495          0.05      
-    1          25         408.54           0.1     Successful Poll
-    2          49        395.733           0.2     Successful Poll
-    3          50        395.733           0.1     Refine Mesh
+    0           1        417.494          0.05      
+    1          25        408.543           0.1     Successful Poll
+    2          49        395.732           0.2     Successful Poll
+    3          50        395.732           0.1     Refine Mesh
 Maximum number of function evaluations exceeded: increase options.MaxFunctionEvaluations.
-Elapsed time is 110.566431 seconds.
+Elapsed time is 83.505863 seconds.
 </pre><img vspace="5" hspace="5" src="youBot_Arm_fullTest_07.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_08.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_09.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_10.png" alt=""> <h2 id="9">Optimization Results Without Friction</h2><pre class="codeoutput">
 
 Iter     Func-count       f(x)      MeshSize     Method
-    0           1        7.92731          0.05      
-    1          25        7.79672           0.1     Successful Poll
-    2          49        7.57421           0.2     Successful Poll
-    3          50        7.57421           0.1     Refine Mesh
+    0           1        7.92726          0.05      
+    1          25        7.79674           0.1     Successful Poll
+    2          49        7.56969           0.2     Successful Poll
+    3          50        7.56969           0.1     Refine Mesh
 Maximum number of function evaluations exceeded: increase options.MaxFunctionEvaluations.
-Elapsed time is 82.018849 seconds.
-</pre><img vspace="5" hspace="5" src="youBot_Arm_fullTest_11.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_12.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_13.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_14.png" alt=""> <p class="footer">Copyright 2017-2019 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div><!--
+Elapsed time is 77.755610 seconds.
+</pre><img vspace="5" hspace="5" src="youBot_Arm_fullTest_11.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_12.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_13.png" alt=""> <img vspace="5" hspace="5" src="youBot_Arm_fullTest_14.png" alt=""> <p class="footer">Copyright 2017-2020 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% youBot Arm
 %
@@ -97,7 +98,7 @@ Elapsed time is 82.018849 seconds.
 % mechanical design, detect integration issues, design and test control
 % logic, and optimize path planning.
 % 
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 
 %% Model

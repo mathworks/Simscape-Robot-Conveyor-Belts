@@ -1,4 +1,4 @@
-% Copyright 2016-2019 The MathWorks(TM), Inc.
+% Copyright 2016-2020 The MathWorks(TM), Inc.
 
 %curr_proj = simulinkproject;
 %YBT_HomeDir = curr_proj;

@@ -1,4 +1,4 @@
-% Copyright 2016-2019 The MathWorks, Inc.
+% Copyright 2016-2020 The MathWorks, Inc.
 
 figureList_h = [h1_youbot_optim h2_youbot_optim h3_youbot_optim];
 figureList_n = {'allTrajectories' 'initialFinal' 'allTrajectories_clr'};
