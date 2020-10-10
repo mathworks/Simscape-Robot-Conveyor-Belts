@@ -1,6 +1,8 @@
 # **Robot Arm with Conveyor Belts**
 Copyright 2016-2020 The MathWorks(TM), Inc.
 
+[![View Robot Arm with Conveyor Belts on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/61370-robot-arm-with-conveyor-belts)
+
 Models a robot arm with 5 degrees of freedom and a gripper, along with 
 two conveyor belts.  The robot transfers a block from one conveyor belt
 to the other.  One conveyor belt brings the block to the robot arm,
