@@ -1,5 +1,5 @@
 function youBot_configureActuation(modelname,variant)
-% Copyright 2016-2020 The MathWorks, Inc.
+% Copyright 2016-2021 The MathWorks, Inc.
 
 sub_pth = find_system(modelname,'LookUnderMasks','all','FollowLinks','on',...
     'Variant','on','Name','Actuation');

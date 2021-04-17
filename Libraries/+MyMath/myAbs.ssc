@@ -7,7 +7,7 @@ component myAbs
 % It does not generate a zero crossing when the sign of u changes.
 % All connections are physical signal ports.
 
-% Copyright 2016-2020 The MathWorks, Inc.
+% Copyright 2016-2021 The MathWorks, Inc.
 
   inputs
     I = { 0, '1' }; % :left

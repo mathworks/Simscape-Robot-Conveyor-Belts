@@ -1,5 +1,5 @@
 function youBot_configureInput(modelname,variant)
-% Copyright 2016-2020 The MathWorks, Inc.
+% Copyright 2016-2021 The MathWorks, Inc.
 
 in_pth = find_system(modelname,'LookUnderMasks','all','FollowLinks','on',...
     'Variant','on','Name','Input');
