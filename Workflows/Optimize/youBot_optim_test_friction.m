@@ -1,4 +1,4 @@
-% Copyright 2016-2021 The MathWorks, Inc.
+% Copyright 2016-2022 The MathWorks, Inc.
 
 % Clear variable for storing results by function evaluation
 clear EE_xyz_opt

@@ -1,5 +1,5 @@
 % Parameters for youBot Arm model
-% Copyright 2016-2021 The MathWorks, Inc.
+% Copyright 2016-2022 The MathWorks, Inc.
 
 %% Cube and Fixed Payload 
 % Cube that moves on belt
