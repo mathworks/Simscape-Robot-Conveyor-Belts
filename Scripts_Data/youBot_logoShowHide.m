@@ -25,7 +25,8 @@ for file_i=1:length(imageFileList)
 end
 
 for sub_i = 1:length(subsystemList)
-    sub_h = find_system(modelname,'IncludeCommented','on','Name',subsystemList{sub_i});
+    sub_h = find_system(modelname,'MatchFilter',@Simulink.match.allVariants,...
+        'IncludeCommented','on','Name',subsystemList{sub_i});
     if(strcmpi(showOrHide,'show'))
         set_param(char(sub_h),'Commented','off');
     else

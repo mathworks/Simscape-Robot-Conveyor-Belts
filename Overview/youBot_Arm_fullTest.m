@@ -26,7 +26,7 @@
 %
 
 open_system('youBot_Arm')
-ann_h = find_system('youBot_Arm','FindAll', 'on','Variants','AllVariants','type','annotation');
+ann_h = find_system('youBot_Arm','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation');
 for i=1:length(ann_h)
     set_param(ann_h(i),'Interpreter','off')
 end

@@ -45,7 +45,7 @@ set_param(modelname,'SimscapeLogType','All');
 %sim(modelname);
 
 %% 5. Add actuation
-jnt_h = find_system(modelname,'RegExp','on','ReferenceBlock','sm_lib/Joints/.*');
+jnt_h = find_system(modelname,'MatchFilter',@Simulink.match.allVariants,'RegExp','on','ReferenceBlock','sm_lib/Joints/.*');
 for i=1:length(jnt_h)
     set_param(jnt_h{i},'TorqueActuationMode','ComputedTorque','MotionActuationMode','InputMotion');
 end
