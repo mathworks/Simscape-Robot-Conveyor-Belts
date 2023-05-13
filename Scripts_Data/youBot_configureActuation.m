@@ -1,5 +1,5 @@
 function youBot_configureActuation(modelname,variant)
-% Copyright 2016-2022 The MathWorks, Inc.
+% Copyright 2016-2023 The MathWorks, Inc.
 
 sub_pth = find_system(modelname,'MatchFilter',@Simulink.match.allVariants,...
     'LookUnderMasks','all','FollowLinks','on',...
