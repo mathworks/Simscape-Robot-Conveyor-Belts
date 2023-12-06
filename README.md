@@ -1,7 +1,7 @@
 # **Robot Arm with Conveyor Belts**
 Copyright 2016-2023 The MathWorks(TM), Inc.
 
-![](Scripts_Data/youBot_Arm_System_demoScript_IMAGE_noLogo.gif)
+![](Scripts_Data/youBot_Arm_System_demoScript_IMAGE_noLogo.jpg)
 
 Models a robot arm with 5 degrees of freedom and a gripper, along with 
 two conveyor belts.  The robot transfers a block from one conveyor belt
