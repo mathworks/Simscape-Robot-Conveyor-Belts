@@ -1,5 +1,5 @@
 function youBot_configureTest(modelname,testOption)
-% Copyright 2016-2023 The MathWorks, Inc.
+% Copyright 2016-2024 The MathWorks, Inc.
 
 sigbRobt_hs = find_system(modelname,'MatchFilter',@Simulink.match.allVariants,...
     'LookUnderMasks','all',...
