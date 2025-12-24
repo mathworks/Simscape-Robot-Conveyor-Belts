@@ -4,7 +4,7 @@
 % The plot below shows the positions of the joints in the youBot robotic
 % arm.
 %
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_youBot_Arm', 'var')

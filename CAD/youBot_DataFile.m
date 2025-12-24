@@ -6,7 +6,7 @@
 % You can modify numerical values, but avoid any other changes to this file.
 % Do not add code to this file. Do not edit the physical units shown in comments.
 
-% Copyright 2016-2024 The MathWorks(TM), Inc.
+% Copyright 2016-2025 The MathWorks(TM), Inc.
 
 %%%VariableName:smiData
 

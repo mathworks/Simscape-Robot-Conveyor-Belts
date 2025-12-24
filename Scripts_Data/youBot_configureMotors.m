@@ -1,5 +1,5 @@
 function youBot_configureMotors(modelname,variant)
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 sub_pth = find_system(modelname,'MatchFilter',@Simulink.match.allVariants,...
     'LookUnderMasks','all','FollowLinks','on',...

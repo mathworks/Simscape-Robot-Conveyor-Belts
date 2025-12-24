@@ -1,5 +1,5 @@
 % Shutdown script for youBot_Arm project
-% Copyright 2019-2024 The MathWorks(TM), Inc.
+% Copyright 2019-2025 The MathWorks(TM), Inc.
 
 % See if custom Simscape Language library exists
 temp_MyMathloc = which('MyMath_lib.slx');
