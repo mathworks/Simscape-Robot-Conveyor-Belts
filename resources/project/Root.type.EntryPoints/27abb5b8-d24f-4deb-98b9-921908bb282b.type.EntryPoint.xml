@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Info File="Scripts_Data/startup_youBot.m" Icon="" Name="startup_youBot" Type="StartUp" Visible="0"/>
+<Info File="Scripts_Data/startup_youBot.m" GroupUUID="default" Icon="" Name="startup_youBot" Type="StartUp" Visible="0">
+    <Extension Name="StartUpPrev" Value="HEAD"/>
+</Info>

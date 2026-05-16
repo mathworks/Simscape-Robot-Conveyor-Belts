@@ -1,5 +1,5 @@
 function youBot_Arm_winopen_file(filename)
-% Copyright 2016-2025 The MathWorks, Inc.
+% Copyright 2016-2026 The MathWorks, Inc.
 
 if (exist(filename))
     if(ispc)
